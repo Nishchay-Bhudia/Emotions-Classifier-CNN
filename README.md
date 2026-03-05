@@ -23,3 +23,13 @@ It uses a **CNN (Convolutional Neural Network)** made in **PyTorch** to guess if
 - `live_runner.py` – Opens your webcam and predicts emotions live  
 
 ---
+
+## What you need
+
+Python 3.8+ and these packages:
+
+```bash
+pip install torch torchvision opencv-python Pillow
+```
+
+---
