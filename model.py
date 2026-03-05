@@ -23,3 +23,22 @@ class EmotionCNN(nn.Module):
             
             nn.Linear(128, 4)  #4 emotions - angry, happy,sad, nuetral
         )
+
+    def forward(self, x):
+        x= self.conv_layers(x)
+        x = torch.flatten(x, start_dim=1)
+        x =self.fc_layers(x)
+        return x
+    
+
+
+
+
+
+
+
+if __name__ == "__main__":
+    model = EmotionCNN()
+    test_input = torch.randn(1, 1, 48, 48)
+    output = model(test_input)
+    print ( "Output shape:", output.shape)
