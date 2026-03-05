@@ -33,3 +33,24 @@ pip install torch torchvision opencv-python Pillow
 ```
 
 ---
+
+## Dataset
+
+Put your images in this way:
+
+```
+data/
+  train/
+    Angry/
+    Happy/
+    Sad/
+    Neutral/
+  test/
+    Angry/
+    Happy/
+    Sad/
+    Neutral/
+```
+
+Images should be **48x48**, but the code will resize them if not.
+
