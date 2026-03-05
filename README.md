@@ -84,3 +84,12 @@ python live_runner.py
 - Press `q` to quit  
 
 ---
+
+## How it works
+
+1. Detects your face using OpenCV  
+2. Converts the face to greyscale and resizes it  
+3. CNN predicts your emotion  
+4. Draws a rectangle and emotion text on the video  
+
+---
