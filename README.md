@@ -99,3 +99,9 @@ python live_runner.py
 git clone 
 ```
 ---
+
+
+## Why I made it
+
+I made this project to **learn how CNNs work** and see if I can make a program that reads emotions.  
+It’s a fun way to play around with computer vision and PyTorch.
