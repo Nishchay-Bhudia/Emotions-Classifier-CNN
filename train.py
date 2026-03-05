@@ -51,3 +51,9 @@ for epoch in range(epochs):
     print(f"Epoch[{epoch+1}/{epochs}] "
           f"Loss: {running_loss:.4f} "
           f"Accuracy: {accuracy:.2f}%")
+
+print("Training finished!")
+
+#save model - used in live run
+torch.save(model.state_dict(), "emotion_cnn.pth")
+print ("Model saved as emotion_cnn.pth")
