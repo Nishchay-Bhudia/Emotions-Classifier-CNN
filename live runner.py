@@ -67,3 +67,11 @@ while True:
             (0,255,0),
             2
         )
+
+    cv2.imshow("Emotion Detector", frame)   #display the frame
+
+    if cv2.waitKey(1) & 0xFF == ord("q"):
+        break   #exit 
+
+capture.release()
+cv2.destroyAllWindows()
