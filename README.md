@@ -14,3 +14,12 @@ It uses a **CNN (Convolutional Neural Network)** made in **PyTorch** to guess if
 - Works faster if you have a GPU
 
 ---
+
+## Files
+
+- `model.py` – The CNN model  
+- `dataset.py` – Loads and processes the images for training/testing  
+- `train.py` – Trains the CNN and saves the model  
+- `live_runner.py` – Opens your webcam and predicts emotions live  
+
+---
