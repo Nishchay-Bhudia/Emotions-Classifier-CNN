@@ -67,3 +67,20 @@ python train.py
 - It will show loss and accuracy for each epoch  
 - Saves the model as `emotion_cnn.pth`
 
+---
+
+## Using the Webcam
+
+first make sure your webcam is connected and on!
+
+After training, run:
+
+```bash
+python live_runner.py
+```
+
+- Webcam opens and detects your face  
+- Shows predicted emotion on screen  
+- Press `q` to quit  
+
+---
