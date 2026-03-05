@@ -54,3 +54,16 @@ data/
 
 Images should be **48x48**, but the code will resize them if not.
 
+---
+
+## Training
+
+Run this to train your model:
+
+```bash
+python train.py
+```
+
+- It will show loss and accuracy for each epoch  
+- Saves the model as `emotion_cnn.pth`
+
