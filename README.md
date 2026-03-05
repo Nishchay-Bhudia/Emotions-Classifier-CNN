@@ -93,3 +93,9 @@ python live_runner.py
 4. Draws a rectangle and emotion text on the video  
 
 ---
+## Clone this git Repo
+
+```bash
+git clone 
+```
+---
