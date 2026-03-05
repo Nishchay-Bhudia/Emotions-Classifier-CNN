@@ -96,7 +96,7 @@ python live_runner.py
 ## Clone this git Repo
 
 ```bash
-git clone 
+git clone https://github.com/Nishchay-Bhudia/Emotions-Classifier-CNN.git
 ```
 ---
 
