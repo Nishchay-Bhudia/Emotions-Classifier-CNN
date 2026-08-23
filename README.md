@@ -11,7 +11,7 @@ weights to `emotion_cnn.pth`. `live runner.py` then opens the webcam, locates fa
 with OpenCV's Haar cascade detector, crops each one and runs it through the network.
 The predicted label is drawn above a green box on the live feed. Press q to quit.
 
-## Files
+## The model
 
 - `model.py` – The CNN model  
 - `dataset.py` – Loads and processes the images for training/testing  
