@@ -22,7 +22,7 @@ The webcam path applies exactly the same transforms as the training path. Gettin
 wrong is the classic way to end up with a model that scores well on paper and predicts
 nonsense on real input, so both live in the same shape of `transforms.Compose`.
 
-## What you need
+## Running it
 
 Python 3.8+ and these packages:
 
