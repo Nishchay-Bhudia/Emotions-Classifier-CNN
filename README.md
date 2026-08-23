@@ -36,6 +36,7 @@ size works, the loader resizes to 48x48.
 
 ```bash
 python train.py
+python "live runner.py"
 ```
 
 - It will show loss and accuracy for each epoch  
