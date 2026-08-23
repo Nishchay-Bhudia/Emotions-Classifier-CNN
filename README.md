@@ -13,10 +13,10 @@ The predicted label is drawn above a green box on the live feed. Press q to quit
 
 ## The model
 
-- `model.py` – The CNN model  
-- `dataset.py` – Loads and processes the images for training/testing  
-- `train.py` – Trains the CNN and saves the model  
-- `live_runner.py` – Opens your webcam and predicts emotions live  
+It is deliberately tiny. Two convolutional blocks (1 to 32 to 64 channels, 3x3 kernels,
+ReLU and 2x2 max pooling after each), then a flatten and two fully connected layers
+down to four scores. Input is a 48x48 greyscale crop normalised to the range -1 to 1.
+Training is Adam at a learning rate of 0.001, cross entropy loss, batch size 64, ten epochs.
 
 ---
 
