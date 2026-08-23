@@ -43,6 +43,12 @@ The quotes matter, the filename has a space in it.
 
 ## Known limitations
 
+- The class order is wrong. `ImageFolder` numbers the folders alphabetically (Angry,
+  Happy, Neutral, Sad) but `live runner.py` lists them as Angry, Happy, Sad, Neutral,
+  so those last two labels come out swapped at inference time.
+- `train.py` builds a test loader and never uses it. The accuracy printed each epoch is
+  training accuracy, so there is no honest held-out number for this model.
+- Haar cascades want a well-lit, roughly front-on face. Side angles are usually missed.
 
 ## Why I made it
 
