@@ -41,34 +41,7 @@ python "live runner.py"
 
 The quotes matter, the filename has a space in it.
 
-first make sure your webcam is connected and on!
-
-After training, run:
-
-```bash
-python live_runner.py
-```
-
-- Webcam opens and detects your face  
-- Shows predicted emotion on screen  
-- Press `q` to quit  
-
----
-
-## How it works
-
-1. Detects your face using OpenCV  
-2. Converts the face to greyscale and resizes it  
-3. CNN predicts your emotion  
-4. Draws a rectangle and emotion text on the video  
-
----
-## Clone this git Repo
-
-```bash
-git clone https://github.com/Nishchay-Bhudia/Emotions-Classifier-CNN.git
-```
----
+## Known limitations
 
 
 ## Why I made it
