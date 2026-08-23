@@ -18,7 +18,9 @@ ReLU and 2x2 max pooling after each), then a flatten and two fully connected lay
 down to four scores. Input is a 48x48 greyscale crop normalised to the range -1 to 1.
 Training is Adam at a learning rate of 0.001, cross entropy loss, batch size 64, ten epochs.
 
----
+The webcam path applies exactly the same transforms as the training path. Getting that
+wrong is the classic way to end up with a model that scores well on paper and predicts
+nonsense on real input, so both live in the same shape of `transforms.Compose`.
 
 ## What you need
 
