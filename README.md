@@ -52,5 +52,4 @@ The quotes matter, the filename has a space in it.
 
 ## Tech
 
-I made this project to **learn how CNNs work** and see if I can make a program that reads emotions.  
-It’s a fun way to play around with computer vision and PyTorch.
+PyTorch, torchvision, OpenCV, Pillow. MIT licensed.
