@@ -6,13 +6,10 @@ actually work, not to ship a usable emotion tool.
 
 ## What it does
 
-- Uses a CNN to recognise emotions
-- Shows your emotions live on webcam
-- Draws a box around your face and writes the emotion
-- You can train it on your own dataset - currently trained on a kaggle public dataset
-- Works faster if you have a GPU - not needed
-
----
+`train.py` trains the network on a folder of labelled face images and writes the
+weights to `emotion_cnn.pth`. `live runner.py` then opens the webcam, locates faces
+with OpenCV's Haar cascade detector, crops each one and runs it through the network.
+The predicted label is drawn above a green box on the live feed. Press q to quit.
 
 ## Files
 
