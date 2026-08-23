@@ -24,7 +24,7 @@ nonsense on real input, so both live in the same shape of `transforms.Compose`.
 
 ## Running it
 
-Python 3.8+ and these packages:
+Python 3.8 or newer, plus:
 
 ```bash
 pip install torch torchvision opencv-python Pillow
