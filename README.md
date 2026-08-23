@@ -39,12 +39,7 @@ python train.py
 python "live runner.py"
 ```
 
-- It will show loss and accuracy for each epoch  
-- Saves the model as `emotion_cnn.pth`
-
----
-
-## Using the Webcam
+The quotes matter, the filename has a space in it.
 
 first make sure your webcam is connected and on!
 
