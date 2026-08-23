@@ -1,9 +1,8 @@
 # Real-Time Emotion Classifier
 
-This is a simple project that can detect your emotions in real-time using your webcam.  
-It uses a **CNN (Convolutional Neural Network)** made in **PyTorch** to accurately guess if you’re **Angry,Happy, Sad or Neutral**.
-
----
+A small PyTorch convolutional network that watches your webcam, finds your face and
+guesses which of four emotions you are showing. I built it to understand how CNNs
+actually work, not to ship a usable emotion tool.
 
 ## What it does
 
