@@ -30,33 +30,9 @@ Python 3.8 or newer, plus:
 pip install torch torchvision opencv-python Pillow
 ```
 
----
-
-## Dataset
-
-Put your images in this way:
-
-```
-data/
-  train/
-    Angry/
-    Happy/
-    Sad/
-    Neutral/
-  test/
-    Angry/
-    Happy/
-    Sad/
-    Neutral/
-```
-
-Images should be **48x48**, but the code will resize them if not.
-
----
-
-## Training
-
-Run this to train your model:
+The dataset is not in the repo. `train.py` expects `data/train` and `data/test`, each
+holding one subfolder per class named `Angry`, `Happy`, `Sad` and `Neutral`. Any image
+size works, the loader resizes to 48x48.
 
 ```bash
 python train.py
